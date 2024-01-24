@@ -1,0 +1,36 @@
+table{
+    border-collapse: collapse;
+    width: 50%;
+    margin: 30px auto;
+    
+    
+    
+}
+td,th{
+    border: 2px solid #ddd;
+    text-align: left;
+    padding: 10px;
+    
+}
+ tr:nth-child(3n-3){
+    background-color: grey;
+}
+tr:nth-child(odd){
+    background-color: grey;
+}
+
+.table1 th{
+    background-color: brown;
+    
+}
+.table2 th {
+    background-color: green;
+
+}
+.table3 th{
+    background-color:blue;
+}
+
+
+
+
